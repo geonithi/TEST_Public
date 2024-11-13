@@ -931,7 +931,7 @@ document.addEventListener('DOMContentLoaded', function() {
         topLeftContainerDiv.appendChild(geocoderControl);
     }
     //search layer
-    var searchLayerControl = document.getElementsByClassName('search-layer')[100];
+    var searchLayerControl = document.getElementsByClassName('search-layer')[500];
     if (searchLayerControl) {
         toprightContainerDiv.appendChild(searchLayerControl);
     }
