@@ -206,7 +206,7 @@ function onPointerMove(evt) {
                 currentFeatureKeys = currentFeature.getKeys();
                 if (doPopup) {
                     popupText += '<li><table>';
-                    popupText += '<a>' + '<b>' + layer.get('popuplayertitle') + '</b>' + '</a>';
+                    popupToext += '<a>' + '<b>' + layer.get('popuplayertitle') + '</b>' + '</a>';
                     popupText += createPopupField(currentFeature, currentFeatureKeys, layer);
                     popupText += '</table></li>';
                 }
@@ -861,7 +861,7 @@ if (hasTouchScreen || isSmallScreen) {
 	document.addEventListener('DOMContentLoaded', function() {
 		setTimeout(function() {
 			layerSwitcher.hidePanel();
-		}, 1500);
+		}, 100);
 	});	
 }
 
